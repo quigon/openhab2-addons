@@ -79,70 +79,70 @@
 		<item-type>Number</item-type>
 		<label>Str1 Voltage</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f V" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="str1Current">
 		<item-type>Number</item-type>
 		<label>Str1 Current</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f A" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="str2Voltage">
 		<item-type>Number</item-type>
 		<label>Str2 Voltage</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f V" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="str2Current">
 		<item-type>Number</item-type>
 		<label>Str2 Current</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f A" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="l1Voltage">
 		<item-type>Number</item-type>
 		<label>L1 Voltage</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f V" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="l1Energy">
 		<item-type>Number</item-type>
 		<label>L1 Power</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f kwh" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="l2Voltage">
 		<item-type>Number</item-type>
 		<label>L2 Voltage</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f V" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="l2Energy">
 		<item-type>Number</item-type>
 		<label>L2 Power</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f kwh" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="l3Voltage">
 		<item-type>Number</item-type>
 		<label>L3 Voltage</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f V" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 	<channel-type id="l3Energy">
 		<item-type>Number</item-type>
 		<label>L3 Power</label>
 		<category>Energy</category>
-		<state readOnly="true" pattern="%.2f kwh" />
+		<state readOnly="true" pattern="%.2f %unit%" />
 	</channel-type>
 
 </thing:thing-descriptions>
